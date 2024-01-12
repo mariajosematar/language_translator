@@ -16,6 +16,6 @@ class TranslationService:
         return translated_text
 
     def translate_to_jeringoza(self, text: str) -> str:
-        # Implementa la lógica de traducción a Jeringoza según los requisitos
+        # Implement the Jeringoza translation logic based on the requirements
         translated_text = text[::-1]
         return translated_text
