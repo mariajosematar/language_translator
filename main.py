@@ -12,14 +12,12 @@ class JeringozaTranslationRequest(BaseModel):
     text: str
 
 def translate_text(text: str, target_language: str) -> str:
-    # Aquí va la lógica real para traducir el texto al idioma especificado
-    # Puedes utilizar bibliotecas de traducción como googletrans, translate, etc.
+    # lógica real para traducir el texto al idioma especificado
     translated_text = f"Translation of '{text}' to {target_language} goes here"
     return translated_text
 
 def translate_to_jeringoza(text: str) -> str:
-    # Aquí va la lógica real para traducir el texto a Jeringoza
-    # Puedes implementar esta lógica según tus requisitos
+    # lógica real para traducir el texto a Jeringoza
     translated_text = f"Jeringoza translation of '{text}' goes here"
     return translated_text
 
